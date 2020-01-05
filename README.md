@@ -1,4 +1,5 @@
 # Dali-DistributedSampler
+A generic DistributedSampler for Dali, support all kinds of input source
 
 # Usage
 4 gpus, with total dataset size 8000
