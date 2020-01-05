@@ -17,15 +17,6 @@ class DistributedDaliSampler():
     """
 
     def __init__(self, dataset_size, num_replicas, rank, epoch=0):
-        # if num_replicas is None:
-        #     if not dist.is_available():
-        #         raise RuntimeError("Requires distributed package to be available")
-        #     num_replicas = dist.get_world_size()
-        # if rank is None:
-        #     if not dist.is_available():
-        #         raise RuntimeError("Requires distributed package to be available")
-        #     rank = dist.get_rank()
-        # self.dataset = dataset
         self.dataset_size = dataset_size
         self.num_replicas = num_replicas
         self.rank = rank
