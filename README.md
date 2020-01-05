@@ -1,5 +1,9 @@
+
 # Dali-DistributedSampler
-A generic DistributedSampler for Dali, support all kinds of input source
+A generic DistributedSampler for Dali, support all kinds of input source. 
+
+# Why it?
+Dali does not provide a generic DistributedSampler currently.
 
 # Usage
 4 gpus, with total dataset size 8000
